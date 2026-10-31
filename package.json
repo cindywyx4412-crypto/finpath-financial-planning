@@ -1,0 +1,14 @@
+{
+  "name": "finpath-financial-planning",
+  "version": "2.0.0",
+  "private": true,
+  "description": "FinPath: independent product concept and working prototype for financial planning for Canadian students and young professionals. Synthetic data only.",
+  "scripts": {
+    "test": "python3 tests/qa_suite.py",
+    "test:live": "python3 tests/qa_suite.py --url https://majestic-sundae-6965fc.netlify.app/"
+  },
+  "devDependencies": {
+    "axe-core": "4.10.2"
+  },
+  "license": "MIT"
+}
